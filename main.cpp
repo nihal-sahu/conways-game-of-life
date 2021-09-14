@@ -1,6 +1,3 @@
-//Nihal Sahu
-//Conway's Game of Life
-
 #include <iostream>
 #include <vector>
 
@@ -10,7 +7,7 @@ int ruleCheck(int cell, int neighbourCells);
 void printGen(const vector<vector<int>>& someVector);
 
 int main() {
-    int gridSize, numGen, neighbours{0}, numAlive, cellLocation;    //declaring variables for grid size, number of generations, number of neighbours, number of initial alive cells, and alive cell locations.
+    int gridSize, numGen, neighbours{0}, numAlive, cellLocation;   
 
     cout << "Enter the size of the grid: "; //asking the user to input the size of the grid
     cin >> gridSize;
